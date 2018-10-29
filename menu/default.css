@@ -1,0 +1,121 @@
+body /* default settings for everything */
+{
+	background-image: url("Images/catbg4.jpg");
+	background-color: #8c8c8c;
+	width: 70%; /*  width of header, content */
+	margin: auto;
+	font-family: Verdana, sans-serif;
+}
+
+body a /* default link */
+{
+	color: #9A52BF; 
+	text-decoration: none;
+}
+
+#logo /* coffee cup logo */
+{
+	height: 150px;
+	width: auto;
+}
+
+.banner /* image at top */
+{
+	width: 100%;
+	height: auto;
+}
+
+.content /* everything past header */
+{
+	background-color: #ffffcc;
+	padding: 10px;
+	position: relative; /* relative to its default position */
+	top: -317px; /* move up by 317 pixels */
+	clear: right;
+}
+
+.nav /* navigation bar */
+{
+	position: absolute;
+	z-index: 1; /* so it appears on top of banner */
+	width: 70%; /* 70% of screen width */
+}
+
+.nav a /* navigation links */
+{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 150%;
+	display: inline-block; /* display as inline-block element for easier manipulation */
+	vertical-align: top; /* text hangs at middle height of logo image otherwise */
+	text-shadow: 3px 3px rgba(15, 11, 13, 0.6); /* for visibility */
+	padding: 10px; /* gives the individual links some space from each other */
+	float: left; /* neater when resizing window */
+	
+}
+
+.socialmedia a /* social media link bar */
+{
+	outline: none;
+	position: relative;
+	top: -60px; /* move them up onto banner image */
+	left: 7px;
+	clear: top;
+	display: inline-block;
+}
+
+section#info /* blurb with address, hours, etc. */
+{
+	width: auto;
+	z-index: 1;
+	padding: 20px;
+	position: relative;
+	top: -300px; /* move onto banner image */
+	float: right;
+	color: white; /* make text white */
+	opacity: 0.5; 
+	transition: 0.3s; /* transition time */
+	font-size: 75%;
+	font-weight: bold; /* for visibility */
+	
+}
+
+section#info:hover /* ups opacity of info blurb and adds shadow on hover */
+{
+	opacity: 1;
+	text-shadow: 1px 1px rgba(15, 11, 13, 0.6);
+}
+
+section#info a /* info blurb links */
+{
+	color: pink;
+}
+
+footer /* footer section at bottom */
+{
+	background-color: #E8CCF6;
+	position: relative;
+	top: -317px;
+	font-size: 75%;
+	padding: 10px;
+}
+
+footer a /* links in footer */
+{
+	color: rgb(49, 85, 113);
+}
+
+@font-face /* linking a custom font */
+{
+	font-family: KittyFace;
+	src: url("Images/Kitty_face.ttf");
+}
+
+h1::first-letter /* pseudo-element: first letter of h1 heading */
+{
+	font-family: KittyFace, Impact, Verdana, sans-serif; /* using custom font, but backups if custom font is unavailable */
+	font-size: 200%;
+}
+
+/* Page-specific CSS */
