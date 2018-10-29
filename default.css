@@ -31,8 +31,11 @@ a
 
 .content
 {
-	background-color: #ffffcc;
+	background-color: rgb(245, 239, 245);
 	padding: 10px;
+	position: relative;
+	top: -317px;
+	clear: right;
 }
 
 .nav
@@ -101,13 +104,6 @@ footer
 footer a
 {
 	color: rgb(49, 85, 113);
-}
-
-.content
-{
-	position: relative;
-	top: -317px;
-	clear: right;
 }
 
 /* Page-specific CSS */
