@@ -2,14 +2,14 @@ body
 {
 	background-image: url("Images/catbg4.jpg");
 	background-color: #8c8c8c;
-	width: 60%;
+	width: 70%;
 	margin: auto;
 	font-family: Verdana;
 }
 
 body a
 {
-	color: rgb(191, 63, 116);
+	color: #9A52BF;
 }
 
 #logo
@@ -42,7 +42,6 @@ a
 {
 	position: absolute;
 	z-index: 1;
-
 }
 
 .nav a
@@ -79,12 +78,14 @@ section#info
 	opacity: 0.5;
 	transition: 0.3s;
 	font-size: 75%;
+	font-weight: bold;
+	
 }
 
 section#info:hover
 {
 	opacity: 1;
-	text-shadow: 3px 3px rgba(15, 11, 13, 0.6);
+	text-shadow: 1px 1px rgba(15, 11, 13, 0.6);
 }
 
 section#info a
@@ -94,7 +95,7 @@ section#info a
 
 footer
 {
-	background-color: rgb(201, 191, 195);
+	background-color: #E8CCF6;
 	position: relative;
 	top: -317px;
 	font-size: 75%;
@@ -104,6 +105,18 @@ footer
 footer a
 {
 	color: rgb(49, 85, 113);
+}
+
+@font-face
+{
+	font-family: KittyFace;
+	src: url("Images/Kitty_face.ttf");
+}
+
+h1::first-letter
+{
+	font-family: KittyFace;
+	font-size: 200%;
 }
 
 /* Page-specific CSS */
