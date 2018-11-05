@@ -119,3 +119,9 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 }
 
 /* Page-specific CSS */
+
+#grad {
+background: #ffffcc
+background: linear gradient: (#ffffcc, #fcfc6f)
+}
+<div id=“grad”> </div>
