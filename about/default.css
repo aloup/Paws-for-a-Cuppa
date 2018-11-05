@@ -120,11 +120,6 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 
 /* Page-specific CSS */
 
-#links li {
-  list-style-image:
-  	   url("pawprint.png");
-}
-
 ul {
-list-style-image: url ("pawprint.png");
+list-style-image: url ('pawprint.png');
 }
