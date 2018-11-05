@@ -52,7 +52,9 @@ body a /* default link */
 	text-shadow: 3px 3px rgba(15, 11, 13, 0.6); /* for visibility */
 	padding: 10px; /* gives the individual links some space from each other */
 	float: left; /* neater when resizing window */
+	transition-duration: 1s;
 	
+
 }
 
 .socialmedia a /* social media link bar */
@@ -118,4 +120,63 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 	font-size: 200%;
 }
 
+.dropdown-content1 
+{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 175px;
+	z-index: 1;
+
+}
+
+.dropdown-content2 
+{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 275px;
+	z-index: 1;
+}
+
+.dropdown-content3 
+{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 580px;
+	z-index: 1;
+}
+
+
+nav a:hover
+{
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+.dropdown:hover .dropdown-content1, .dropdown:hover .dropdown-content2, .dropdown:hover .dropdown-content3
+{
+	display: block;
+}
+
 /* Page-specific CSS */
+
+img.adoptedcats
+{
+	width: 400px;
+	height: auto;
+	padding: 50px;
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+img.adoptedcats:hover
+{
+	transform: scale(1.25);
+	opacity: 1;
+}
+
+div.content
+{
+	overflow: auto;
+}

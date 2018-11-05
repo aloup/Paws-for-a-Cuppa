@@ -119,3 +119,13 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 }
 
 /* Page-specific CSS */
+
+ul 
+{
+	list-style-image: url('Images/dog-paw.png');
+}
+
+li
+{
+	padding: 5px;
+}
