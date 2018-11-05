@@ -119,9 +119,3 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 }
 
 /* Page-specific CSS */
-
-ul {
-	list-style-image: url("http://www.clipartbest.com/cliparts/ace/6yj/ace6yjpBi.png");
-	width: .4em; 
-    	height: 1em;
-}
