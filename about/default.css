@@ -122,9 +122,9 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 
 #links li {
   list-style-image:
-  	   url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Paw-print.svg/419px-Paw-print.svg.png);
+  	   url("pawprint.png");
 }
 
 ul {
-list-style-image: url ('https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Paw-print.svg/419px-Paw-print.svg.png');
+list-style-image: url ("pawprint.png");
 }
