@@ -122,6 +122,7 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 
 ul {
 	background-image: url("http://www.clipartbest.com/cliparts/ace/6yj/ace6yjpBi.png");
+	background-repeat: no-repeat;
 	background-size: .4em .7em;
    	background-position: 0 .3em;
 }
