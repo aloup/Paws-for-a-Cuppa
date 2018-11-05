@@ -121,15 +121,5 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 /* Page-specific CSS */
 
 ul {   
-	list-style-type: none; 
-}
-
-ul li:before {   
-	content: '';   
-	display: inline-block;   
-	height: 10px;   
-	width: 10px;    
-	background-size: 10px;   
-	background-image: url("http://www.clipartbest.com/cliparts/ace/6yj/ace6yjpBi.png");   
-	background-repeat: no-repeat;   margin-right: 5px;
+	list-style-image: url("http://www.resizeimage.net/viewimg/8JbpZ6kEytJWM5kR/g0zIC/pawprints.png"); 
 }
