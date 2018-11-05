@@ -119,3 +119,7 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 }
 
 /* Page-specific CSS */
+
+.linear-gradient {
+  background-image: linear-gradient(to bottom, #ffffcc, #fcfc6f);
+}

@@ -119,3 +119,23 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 }
 
 /* Page-specific CSS */
+
+table {
+border-collapse: collapse;
+}
+
+table, th, td {
+border:1px solid black;
+}
+
+th, td {
+text-align: left;
+}
+
+th, td {
+border-bottom: 1px solid #a476a7;
+}
+
+tr:hover {
+background-color: #fcfc7a
+}
