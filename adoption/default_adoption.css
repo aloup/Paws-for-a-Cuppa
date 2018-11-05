@@ -118,6 +118,7 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 	font-size: 200%;
 }
 
+<<<<<<< HEAD:adoption/default.css
 
 /* dropdown menu CSS */
 .dropdown-content1 
@@ -158,3 +159,26 @@ nav a:hover
 }
 
 /* Page-specific CSS */
+=======
+/* Page-specific CSS */
+
+img.ourcats
+{
+	width: auto;
+	height: auto;
+	padding: 50px;
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+img.ourcats:hover
+{
+	transform: scale(1.25);
+	opacity: 1;
+}
+
+div.content
+{
+	overflow: auto;
+}
+>>>>>>> 899e13f59b91a58dff9f4972afa6b7a7d7822496:adoption/default_adoption.css

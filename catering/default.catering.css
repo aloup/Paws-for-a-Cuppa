@@ -118,6 +118,7 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 	font-size: 200%;
 }
 
+<<<<<<< HEAD:catering/default.catering.css
 <<<<<<< HEAD:catering/default.css
 
 /* dropdown menu CSS */
@@ -160,6 +161,8 @@ nav a:hover
 
 /* Page-specific CSS */
 =======
+=======
+>>>>>>> 899e13f59b91a58dff9f4972afa6b7a7d7822496:catering/default.catering.css
 /* Page-specific CSS */
 
 input, select, textarea /* making the forms rounded */
@@ -189,4 +192,7 @@ fieldset
 {
 	border: 2px solid dark red;
 }
+<<<<<<< HEAD:catering/default.catering.css
 >>>>>>> 9d304dbfa0a114c1f8aa4a07e7164ee8211ffdee:catering/default.catering.css
+=======
+>>>>>>> 899e13f59b91a58dff9f4972afa6b7a7d7822496:catering/default.catering.css
