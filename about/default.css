@@ -123,7 +123,6 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 ul {
         margin: 0;
 	padding: 36px 0 36px 84px;
-	list-style: none;
 	background-image: url("http://www.clipartbest.com/cliparts/ace/6yj/ace6yjpBi.png");
 	background-repeat: no-repeat;
 	background-size: 40px;
