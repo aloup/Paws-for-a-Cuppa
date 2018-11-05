@@ -119,3 +119,23 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 }
 
 /* Page-specific CSS */
+
+img.ourcats
+{
+	width: auto;
+	height: auto;
+	padding: 50px;
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+img.ourcats:hover
+{
+	transform: scale(1.25);
+	opacity: 1;
+}
+
+div.content
+{
+	overflow: auto;
+}
