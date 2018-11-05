@@ -120,6 +120,6 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 
 /* Page-specific CSS */
 
-#grad {
-  background: linear-gradient(to bottom right, orange, yellow);
+.linear-gradient {
+  background-image: linear-gradient(to bottom, #ffffcc, #fcfc6f);
 }
