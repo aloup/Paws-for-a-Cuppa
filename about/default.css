@@ -119,3 +119,7 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 }
 
 /* Page-specific CSS */
+
+ul {
+list-style-image: url ('https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Paw-print.svg/419px-Paw-print.svg.png');
+}
