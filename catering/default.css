@@ -27,7 +27,7 @@ body a /* default link */
 
 .content /* everything past header */
 {
-	background-color: #ffffcc
+	background-color: #ffffcc;
 	padding: 10px;
 	position: relative; /* relative to its default position */
 	top: -317px; /* move up by 317 pixels */
@@ -35,7 +35,7 @@ body a /* default link */
 }
 
 #grad {
-    background-image: linear-gradient(red, yellow);
+  background-image: -webkit-linear-gradient(bottom, rgb(254,133,107) 24%, rgb(35,171,17) 62%);
 }
 
 .nav /* navigation bar */
