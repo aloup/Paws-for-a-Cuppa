@@ -118,8 +118,6 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 	font-size: 200%;
 }
 
-<<<<<<< HEAD:catering/default.catering.css
-<<<<<<< HEAD:catering/default.css
 
 /* dropdown menu CSS */
 .dropdown-content1 
@@ -168,7 +166,7 @@ input, select, textarea /* making the forms rounded */
 	margin: 10px;
 	padding: 10px;
 	border-radius: 4px;
-	border: 3px solid dark red;
+	border: 3px solid red;
 }
 
 textarea
@@ -188,5 +186,5 @@ textarea:focus
 
 fieldset
 {
-	border: 2px solid dark red;
+	border: 2px solid red;
 }
