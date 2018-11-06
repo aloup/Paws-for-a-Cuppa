@@ -155,14 +155,9 @@ nav a:hover
 {
 	display: block; /* display hidden dropdown buttons when hovering over certain navigation items */
 }
-<<<<<<< HEAD
+
 
 /* Page-specific CSS */
-
-=======
-=======
-/* Page-specific CSS */
->>>>>>> 7d671f057809ac25f57b818d4d0083d29dcc1830
 
 img.ourcats /* adding transformations to the images */
 {

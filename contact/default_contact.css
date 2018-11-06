@@ -159,7 +159,7 @@ nav a:hover
 
 /* Page-specific CSS */
 
-input, select, textarea, button
+input, select, textarea, button /* rounding corners of elements, adding a grey border */
 {
 	margin: 10px;
 	padding: 10px;
@@ -169,15 +169,15 @@ input, select, textarea, button
 
 textarea
 {
-	resize: none;
+	resize: none; /* so users cannot drag to resize the textarea on the page */
 }
 
-input:focus, select:focus, button:focus
+input:focus, select:focus, button:focus /* highlights the fields pink when clicked on */
 {
 	background-color: rgba(252,220,233,0.5);
 }
 
-textarea:focus
+textarea:focus /* adds a subtle gradient to the text field when it's clicked on */
 {
 	background-image: linear-gradient(0deg, rgba(252,220,233,1) 0%, rgba(246,221,166,1) 100%);
 }
