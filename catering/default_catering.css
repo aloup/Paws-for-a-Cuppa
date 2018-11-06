@@ -118,24 +118,70 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 	font-size: 200%;
 }
 
+/* dropdown menu CSS */
+.dropdown-content1 
+{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 175px;
+	z-index: 1;
+}
+
+.dropdown-content2 
+{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 275px;
+	z-index: 1;
+}
+
+.dropdown-content3 
+{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 580px;
+	z-index: 1;
+}
+
+nav a:hover
+{
+	background-color: rgb(0, 0, 0, 0.5); /* black semi-transparent background when you hover */
+}
+
+.dropdown:hover .dropdown-content1, .dropdown:hover .dropdown-content2, .dropdown:hover .dropdown-content3
+{
+	display: block; /* display hidden dropdown buttons when hovering over certain navigation items */
+}
+
 /* Page-specific CSS */
 
-table {
-border-collapse: collapse;
+input, select, textarea /* making the forms rounded */
+{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 4px;
+	border: 3px solid red;
 }
 
-table, th, td {
-border:1px solid black;
+textarea
+{
+	resize: none;
 }
 
-th, td {
-text-align: left;
+input:focus, select:focus /* giving the form a gradient */
+{
+	background-color: rgba(252,220,233,0.5);
 }
 
-th, td {
-border-bottom: 1px solid #a476a7;
+textarea:focus
+{
+	background-image: linear-gradient(0deg, rgba(252,220,233,1) 0%, rgba(246,221,166,1) 100%);
 }
 
-tr:hover {
-background-color: #fcfc7a
+fieldset
+{
+	border: 2px solid red;
 }

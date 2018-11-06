@@ -6,7 +6,7 @@
 	
 	<meta charset="UTF-8">
 	<title>Paws for a Cuppa Cat Cafe</title>	
-	<link rel="stylesheet" type="text/css" href="default.css" />
+	<link rel="stylesheet" type="text/css" href="default_index.css" />
 	
 	</head>
 
@@ -17,16 +17,31 @@
 				
 		<div class="nav">
 		
-		<!-- MAKE IMAGE 150PX HEIGHT WITH CSS -->
-			
 			<a href="..\index\index.html"><img src="Images/logo_green.jpg" id="logo" height="405" width="425" alt="logo" /></a> 
 			<!-- ..\ goes up a file folder in the directory -->
-			<a href="..\menu\menu.html" class="navtext">Menu</a>
-			<a href="..\cats\cats.html" class="navtext">Our Cats</a>
+			
+			<!-- First drop-down item -->
+			<div class="dropdown"><a href="..\menu\menu.html" class="navtext">Menu</a>
+				<div class="dropdown-content1"><a href="..\catering\catering.html" class="navtext">Catering</a></div>
+			</div>
+			<!-- End of first drop-down -->
+			
+			<!-- Second drop-down item -->
+			<div class="dropdown"><a href="..\cats\cats.html" class="navtext">Our Cats</a>
+				<div class="dropdown-content2"><a href="..\adoption\adoption.html" class="navtext">Adoption</a></div>
+			</div>
+			<!-- End of second drop-down -->
+			
 			<a href="..\contact\contact.html" class="navtext">Contact</a>
-			<a href="..\partners\partners.html" class="navtext">Partners</a>
+			
+			<!-- Third drop-down item -->
+			<div class="dropdown"><a href="..\partners\partners.html" class="navtext">Partners</a>
+				<div class="dropdown-content3"><a href="..\happyendings\happyendings.html" class="navtext">Happy Endings</a></div>
+			</div>
+			<!-- End of third drop-down -->
+			
 			<a href="..\events\events.html" class="navtext">Events</a>
-			<a href="..\about\about.html" class="navtext">About Us</a>
+			<a href="..\about\about.html" class="navtext">About Us</a><br />
 		
 		</div>
 	
@@ -95,43 +110,33 @@
 
 	<div class="content">
 	
-	<article>
-			<h1>Welcome to Paws for a Cuppa!</h1>
-			
-			<p>Cats are great. Coffee is great. At Paws for a Cuppa, you can have both at the same time.</p>
-			
-			<h3><em>cat cafe</em>, <i>n.</i>: an establishment where patrons may interact with cats while sipping delicious coffee beverages and fresh-baked pastries</h3>
-			
-			<p>Look below to explore our menu, our cat staff, and much more. We look forward to seeing you in our cafe!</p>
-	</article>
-	
-		<!-- MAKE IMAGE 300PX HEIGHT WITH CSS -->	
-
-	<div id="indexlinks">
-	
-		<div>
-			<p><a href="cats.html">Meet our cats<br /><img src="Images/index_cats.jpg" height="678" width="678" alt="our cats" /></a>
-			</p>
-
-		</div>
+		<article>
+				<h1>Welcome to Paws for a Cuppa!</h1>
+				
+				<p>Cats are great. Coffee is great. At Paws for a Cuppa, you can have both at the same time.</p>
+				
+				<h3><em>cat cafe</em>, <i>n.</i>: an establishment where patrons may interact with cats while sipping delicious coffee beverages and fresh-baked pastries</h3>
+				
+				<p>Look below to explore our menu, our cat staff, and much more. We look forward to seeing you in our cafe!</p>
+		</article>
 		
-		<div>
-			<p>
-			<a href="menu.html">See our menu <br /><img src="Images/index_menu.jpg" height="1440" width="1440" alt="menu" /></a>
-			</p>
+			<!-- MAKE IMAGE 300PX HEIGHT WITH CSS -->	
 
-		</div>
+		<div id="indexlinks">
 		
-		<div>
-			<p>
-			<a href="contact.html#reservation">Make a reservation<br /><img src="Images/index_reservations.jpg" height="900" width="900" alt="make a reservation" /></a>
-			</p>
-
+			<section id="indexsquares">
+				<a href="..\cats\cats.html"><img src="Images/index_cats.jpg" height="678" width="678" alt="our cats" /><div id="links">Meet our cats</div></a>
+			</section>
+			
+			<section id="indexsquares">
+				<a href="..\menu\menu.html"><img src="Images/index_menu.jpg" height="1440" width="1440" alt="menu" /><div id="links">See our menu</div></a>
+			</section>
+			
+			<section id="indexsquares">
+				<a href="..\contact\contact.html#reservation"><img src="Images/index_reservations.jpg" height="900" width="900" alt="make a reservation" /><div id="links">Make a reservation</div></a>
+			</section>
+			
 		</div>
-	
-	
-	
-	</div>
 	
 	</div>
 

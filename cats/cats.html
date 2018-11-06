@@ -6,7 +6,7 @@
 	
 	<meta charset="UTF-8">
 	<title>Paws for a Cuppa Cat Cafe</title>	
-	<link rel="stylesheet" type="text/css" href="default.css" />
+	<link rel="stylesheet" type="text/css" href="default_cats.css" />
 	
 	</head>
 
@@ -17,16 +17,31 @@
 				
 		<div class="nav">
 		
-		<!-- MAKE IMAGE 150PX HEIGHT WITH CSS -->
-			
 			<a href="..\index\index.html"><img src="Images/logo_green.jpg" id="logo" height="405" width="425" alt="logo" /></a> 
 			<!-- ..\ goes up a file folder in the directory -->
-			<a href="..\menu\menu.html" class="navtext">Menu</a>
-			<a href="..\cats\cats.html" class="navtext">Our Cats</a>
+			
+			<!-- First drop-down item -->
+			<div class="dropdown"><a href="..\menu\menu.html" class="navtext">Menu</a>
+				<div class="dropdown-content1"><a href="..\catering\catering.html" class="navtext">Catering</a></div>
+			</div>
+			<!-- End of first drop-down -->
+			
+			<!-- Second drop-down item -->
+			<div class="dropdown"><a href="..\cats\cats.html" class="navtext">Our Cats</a>
+				<div class="dropdown-content2"><a href="..\adoption\adoption.html" class="navtext">Adoption</a></div>
+			</div>
+			<!-- End of second drop-down -->
+			
 			<a href="..\contact\contact.html" class="navtext">Contact</a>
-			<a href="..\partners\partners.html" class="navtext">Partners</a>
+			
+			<!-- Third drop-down item -->
+			<div class="dropdown"><a href="..\partners\partners.html" class="navtext">Partners</a>
+				<div class="dropdown-content3"><a href="..\happyendings\happyendings.html" class="navtext">Happy Endings</a></div>
+			</div>
+			<!-- End of third drop-down -->
+			
 			<a href="..\events\events.html" class="navtext">Events</a>
-			<a href="..\about\about.html" class="navtext">About Us</a>
+			<a href="..\about\about.html" class="navtext">About Us</a><br />
 		
 		</div>
 	
@@ -92,13 +107,23 @@
 <!-- END HEADER ---------------------------->
 
 <!-- START CONTENT ------------------------->
-
+		
 <div class="content">
 
 <h1>Our Cats</h1>
+	
+<p>
+
+We have many cute and colourful cats here at Paws for a Cuppa! Watch this video to get a sense of how wacky and unique our cats are.
+
+</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dGFSjKuJfrI" allowfullscreen>
 </iframe>
+
+<p>
+Our cats are up for <a href="..\adoption\adoption.html">adoption!</a> Come check them out!
+</p>
 
 </div>
 

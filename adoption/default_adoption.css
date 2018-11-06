@@ -118,4 +118,63 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 	font-size: 200%;
 }
 
+/* dropdown menu CSS */
+.dropdown-content1 
+{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 175px;
+	z-index: 1;
+}
+
+.dropdown-content2 
+{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 275px;
+	z-index: 1;
+}
+
+.dropdown-content3 
+{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 580px;
+	z-index: 1;
+}
+
+nav a:hover
+{
+	background-color: rgb(0, 0, 0, 0.5); /* black semi-transparent background when you hover */
+}
+
+.dropdown:hover .dropdown-content1, .dropdown:hover .dropdown-content2, .dropdown:hover .dropdown-content3
+{
+	display: block; /* display hidden dropdown buttons when hovering over certain navigation items */
+}
+
+
 /* Page-specific CSS */
+
+img.ourcats /* adding transformations to the images */
+{
+	width: auto;
+	height: auto;
+	padding: 100px;
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+img.ourcats:hover
+{
+	transform: scale(1.25);
+	opacity: 1;
+}
+
+div.content
+{
+	overflow: auto;
+}
