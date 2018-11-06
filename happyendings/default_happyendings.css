@@ -120,6 +120,7 @@ h1::first-letter /* pseudo-element: first letter of h1 heading */
 	font-size: 200%;
 }
 
+<<<<<<< HEAD:happyendings/default_happyendings.css
 /* dropdown menu CSS */
 .dropdown-content1 
 {
@@ -179,3 +180,10 @@ div.content
 {
 	overflow: auto;
 }
+=======
+/* Page-specific CSS */
+
+.linear-gradient {
+  background-image: linear-gradient(to bottom, #ffffcc, #fcfc6f);
+}
+>>>>>>> romanojet-patch-1:catering/default.css
