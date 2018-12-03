@@ -7,6 +7,8 @@
 	<meta charset="UTF-8">
 	<title>Paws for a Cuppa Cat Cafe</title>
 	<link rel="stylesheet" type="text/css" href="default_happyendings.css" />	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="happyendings.js"></script>
 	
 	</head>
 
@@ -110,19 +112,25 @@
 
 	<div class="content">
 		<h1>Happy Endings</h1>
-		<p>If you've adopted a cat through our cafe, we'd love to hear back from you! Below are some stories from previous happy endings for our cats and kittens.</p>
+		<p>If you've adopted a cat through our cafe, we'd love to hear back from you! Below are some stories from previous happy endings for our cats and kittens. <em>Click on each cat's name to find out more about them!</em></p>
 		
 		<h2>If you are interested in adopting, check out our <a href="..\adoption\adoption.html">Adoption Page</a>!</h2>
 		
 		<!-- MAKE IMAGEs 400PX HEIGHT WITH CSS -->	
 		
-		<h2>Fiona</h2>
+
+		<h2 onclick="show_fiona()">Fiona (click to see more)</h2>
+		<div id="fiona" class="catbio">
 		<p>
 		<img class="adoptedcats" src="Images/fiona2.jpg" alt="brown tabby with red" width="3024" height="4032" />
 		<img class="adoptedcats" src="Images/fiona.jpg" alt="brown tabby with red" width="3024" height="4032" /><br />
 		Fiona's mom, Lily, was fostered by Paws for a Cuppa. About a week into Lily's stay with us, she delivered three beautiful kittens: Fiona, Sarah, and Charlie! Fiona was adopted into a loving home once she was old enough to leave her mom; she enjoys hunting her own tail, climbing tall shelves, and hiding in houseplants.
+		</p>
+		</div>
 		
-		<h2>Phoebe</h2>
+
+		<h2 onclick="show_phoebe()">Phoebe (click to see more)</h2>
+		<div id="phoebe" class="catbio">
 		<p>
 		<video class="adoptedcats" width="600" controls>
 		<source src="Images/Phoebe.mp4" type="video/mp4" />
@@ -130,6 +138,7 @@
 		</video> <br />
 		Phoebe is a terror, but a cute one. This adorable calico is still playful as a kitten and continues to entertain her family with her antics every day. 
 		</p>
+		</div>
 
 	</div>
 

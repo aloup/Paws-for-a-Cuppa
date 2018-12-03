@@ -179,3 +179,8 @@ div.content
 {
 	overflow: auto;
 }
+
+.catbio
+{
+	display: none;
+}

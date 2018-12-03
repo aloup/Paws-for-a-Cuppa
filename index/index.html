@@ -7,10 +7,13 @@
 	<meta charset="UTF-8">
 	<title>Paws for a Cuppa Cat Cafe</title>	
 	<link rel="stylesheet" type="text/css" href="default_index.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+	
 	
 	</head>
 
-	<body>
+	<body onload="slideshow1()">
 
 <!-- START NAVIGATION BAR ----------------->
 	<nav> 
@@ -54,8 +57,9 @@
 	<header> 
 
 		<!-- MAKE IMAGE 900PX HEIGHT WITH CSS -->	
-	<img class="banner" src="Images/Splash.jpg" width="3072" height="2048" alt="Splash" />
-	
+	<img class="banner" id="slide1" src="Images/Splash.jpg" width="3072" height="2048" alt="Splash" />
+	<img class="banner" id="slide2" src="Images/Splash2.jpg" />
+	<img class="banner" id="slide3" src="Images/Splash3.jpg" />
 		
 <!-- START SOCIAL MEDIA LINKS -------------->	
 	<!-- NOTE: The links below are meant to lead to social media profiles for the business.

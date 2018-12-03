@@ -7,6 +7,8 @@
 	<meta charset="UTF-8">
 	<title>Paws for a Cuppa Cat Cafe</title>	
 	<link rel="stylesheet" type="text/css" href="default_contact.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="contact.js"></script>
 	
 	</head>
 
@@ -121,20 +123,20 @@
 		<fieldset>
 		
 			<p> Name:* <br />
-				<input type="text" name="customername" required /><br />
+				<input type="text" name="customername" required id="name" /><br />
 				Phone number:* <br />
-				<input type="text" name="phonenumber" required /><br />
+				<input type="text" name="phonenumber" required id="phone" /><br />
 				Email address: <br />
-				<input type="text" name="emailaddress" /><br />
+				<input type="text" name="emailaddress" id="email" /><br />
 				Preferred form of contact: <br />
-				<input type="checkbox" name="contact" value="Phone" />Phone <br />
-				<input type="checkbox" name="contact" value="E-mail" />E-mail <br />
+				<input type="checkbox" class="choice" name="contact" value="Phone" id="phonepreferred" />Phone <br />
+				<input type="checkbox" class="choice" name="contact" value="E-mail" id="emailpreferred" />E-mail <br />
 				
 			</p>
 				Date:* <br />
-				<input type="date" name="date" required /> <br />
+				<input type="date" name="date" required id="date" /> <br />
 				Time:* <br />
-				<select name="time">
+				<select name="time" id="time">
 					<option value="0900">9:00 AM</option>
 					<option value="0930">9:30 AM</option>
 					<option value="1000">10:00 AM</option>
@@ -168,16 +170,16 @@
 			
 			<p>
 			Preferred section: <br />
-			<input type="radio" name="section" value="Inside" />Inside <br />
-			<input type="radio" name="section" value="Patio" />Patio <br />
-			<input type="radio" name="section" value="Either" checked />Either <br />
+			<input type="radio" class="choice" name="section" value="Inside" id="insidepreferred" />Inside <br />
+			<input type="radio" class="choice" name="section" value="Patio" id="outsidepreferred" />Patio <br />
+			<input type="radio" class="choice" name="section" value="Either" checked id="insideoutside" />Either <br />
 			
 			</p>
 
 			<p>
 				Special requests: <br />
 				<input list="specialrequests" />
-					<datalist id="specialrequests">
+					<datalist id="specialrequests" id="special">
 						<option value="High chair">
 						<option value="Allergy (please specify)">
 						<option value="Food restrictions (please specify)">
@@ -185,15 +187,18 @@
 			</p>
 			
 			<p>
-				<textarea name="additional" rows="10" cols="50">Additional comments</textarea>		
+				<textarea name="additional" rows="10" cols="50" id="additional">Additional comments</textarea>		
 			</p>
 	
-			<input type="submit" value="Submit" />
+			<input type="submit" value="Submit" onclick="confirmation()" />
 			<button type="reset" value="Reset">Clear form</button>
 			
 			<p>
 				<small>Fields with an * are required.</small>
 			</p>
+			
+			<div id="summary">
+			</div>
 			</fieldset>
 		
 	</form>
