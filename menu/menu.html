@@ -10,11 +10,15 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script>
 	$(document).ready(function(){
-	$("button").click(function(){
-	$("table").fadeIn();
+	$(".btn1").click(function(){
+	$("table").fadeOut()
 	});
+	$(".btn2").click(function(){
+	$("table").fadeIn();
+	    });
 	});
 	</script>
+
 	
 	</head>
 
@@ -126,7 +130,8 @@
 	</p>
 	
 	<p>
-	<button>Click to show menu</button>
+	<button class="btn1">Fade it out!</button> <br />
+	<button class="btn2">Fade it in!</button>
 	</p>
 	<br />
 	<br />
