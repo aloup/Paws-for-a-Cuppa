@@ -158,3 +158,8 @@ nav a:hover
 }
 
 /* Page-specific CSS */
+
+iframe
+{
+	position: absolute;
+}
