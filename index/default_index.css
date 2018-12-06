@@ -189,3 +189,15 @@ div#links
 	text-transform: uppercase;
 	text-shadow: 3px 3px rgba(15, 11, 13, 0.6);
 }
+
+#promotion
+{
+	position: absolute;
+	color: white;
+	z-index: 1;
+	top: 200px;
+	left: 30%;
+	text-shadow: 3px 3px red;
+	font-size: 2em;
+	font-variant: small-caps;
+}

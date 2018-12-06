@@ -15,4 +15,5 @@ function confirmation ()
 	
 	
 	document.getElementById("summary").appendChild(summary);	
+
 }

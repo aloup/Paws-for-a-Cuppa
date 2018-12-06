@@ -21,3 +21,12 @@ function slideshow3 ()
 	document.getElementById("slide3").style.display = "block";
 	setTimeout(slideshow1, 5000);
 }
+
+$(document).ready(function() {
+    $('#promolink').click(function() {
+        return false;
+    }).dblclick(function() {
+        window.location = this.href;
+        return false;
+    });
+});

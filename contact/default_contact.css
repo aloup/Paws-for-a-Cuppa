@@ -186,3 +186,8 @@ fieldset
 {
 	border: 2px solid grey;
 }
+
+#phonec, #emailc, #phonemail
+{
+	display: none;
+}
