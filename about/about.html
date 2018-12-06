@@ -7,6 +7,14 @@
 	<meta charset="UTF-8">
 	<title>Paws for a Cuppa Cat Cafe</title>
 	<link rel="stylesheet" type="text/css" href="default_about.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>	
+	$(document).ready(function(){
+	$("#flip").click(function(){
+	$("#panel").slideToggle("slow");
+	});
+	});
+	</script>
 	
 	</head>
 
@@ -118,8 +126,10 @@
 
 	<img src="https://www.rd.com/wp-content/uploads/2016/04/12-cat-wants-to-tell-you-cat-lady.jpg" alt="cat lady" height="400" />
 
-	<h3>About Us</h3>
+	<div id="flip">	
+	<h3>About Us (click!)</h3>
 	
+	<div id="panel">
 	<ul>
 		<li>Cat Cafes originated in Taiwan in 1998, and quickly became popular, not only to the locals, but also to the various tourists from other countries, most importantly Japan. The idea was taken back to Japan, and the first cat cafe implemented in Japan sprung up in 2004.</li>
 		<li>Visiting a cat cafe helped people relieve stress by kicking back and relaxing with a furry friend. They proved an excellent distraction from the monotony and difficulty of urban life, and therefore were very popular with tourists and locals alike. They can now be found in:

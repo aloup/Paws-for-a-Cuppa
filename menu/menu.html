@@ -7,6 +7,18 @@
 	<meta charset="UTF-8">
 	<title>Paws for a Cuppa Cat Cafe</title>	
 	<link rel="stylesheet" type="text/css" href="default_menu.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	$("button1").click(function(){
+	$("table").fadeOut();
+	});
+	$("button2").click(function(){
+	$("table").fadeIn();
+	    });
+	});
+	</script>
+
 	
 	</head>
 
@@ -116,8 +128,16 @@
 	<p>
 	What can we get for you?
 	</p>
+	
+	<p>
+	<button1>Fade menu out!</button1> <br />
+	<button2>Fade menu in!</button2>
+	</p>
+	<br />
+	<br />
 
 <table>
+	
 
 		<tr>
 			<th>Food</th>
