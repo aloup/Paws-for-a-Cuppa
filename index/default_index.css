@@ -201,3 +201,8 @@ div#links
 	font-size: 2em;
 	font-variant: small-caps;
 }
+
+a#promolink
+{
+	color: white;
+}

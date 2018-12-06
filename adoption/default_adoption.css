@@ -178,3 +178,8 @@ div.content
 {
 	overflow: auto;
 }
+
+#expand
+{
+	display: none;
+}

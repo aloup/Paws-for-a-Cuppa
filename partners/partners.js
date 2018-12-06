@@ -25,7 +25,7 @@ function expandDesc()
 	$("#expandbutton").click(
 	function()
 	{
-		$(".expand").css("display", "block");
+		$("#expand").css("display", "block");
 	}
 	);
 }

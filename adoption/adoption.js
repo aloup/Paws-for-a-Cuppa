@@ -1,11 +1,9 @@
 $(document).ready(
 	function() 
 	{
-	$("p").focus(
-		function ()
-		{
-			$(this).css("background-color", "red");
-		});
-	}
-	
-);
+		$("#expandbutton").click(
+				function()
+				{
+					$("#expand").css("display", "block");
+				});
+	});

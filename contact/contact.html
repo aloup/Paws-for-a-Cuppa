@@ -129,8 +129,9 @@
 				Email address: <br />
 				<input type="text" name="emailaddress" id="email" /><br />
 				Preferred form of contact: <br />
-				<input type="checkbox" class="choice" name="contact" value="Phone" id="phonepreferred"/>Phone <br />
-				<input type="checkbox" class="choice" name="contact" value="E-mail" id="emailpreferred" />E-mail <br />
+				<input type="checkbox" class="choice" name="contact" value="Phone" id="phonepreferred" onclick="contactMethods()" />Phone <br />
+				<input type="checkbox" class="choice" name="contact" value="E-mail" id="emailpreferred" onclick="contactMethods()" />E-mail <br />
+				<div id="contactchoice">We will contact you by phone first unless otherwise indicated.</div>
 
 				
 			</p>
@@ -171,9 +172,9 @@
 			
 			<p>
 			Preferred section: <br />
-			<input type="radio" class="choice" name="section" value="Inside" id="insidepreferred"/>Inside <br />
-			<input type="radio" class="choice" name="section" value="Patio" id="outsidepreferred" />Patio <br />
-			<input type="radio" class="choice" name="section" value="Either" checked id="insideoutside" />Either <br />
+			<input type="radio" class="choice" name="section" value="Inside" id="insidepreferred" onclick="insideOutside()" /><span id="in">Inside</span> <br />
+			<input type="radio" class="choice" name="section" value="Patio" id="outsidepreferred" onclick="insideOutside()" /><span id="out">Patio</span> <br />
+			<input type="radio" class="choice" name="section" value="Either" checked id="insideoutside" onclick="insideOutside()" /><span id="inout">Either </span><br />
 			
 			</p>
 
@@ -192,7 +193,7 @@
 			</p>
 	
 			<input type="submit" value="Submit" onclick="confirmation()" />
-			<button type="reset" value="Reset">Clear form</button>
+			<button type="reset" value="Reset" onclick="removeConfirmation()">Clear form</button>
 			
 			<p>
 				<small>Fields with an * are required.</small>
