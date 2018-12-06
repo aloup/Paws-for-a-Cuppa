@@ -9,8 +9,16 @@
 	<link rel="stylesheet" type="text/css" href="default_cats.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script>
-
-	</script>
+	$(document).ready(function(){
+	$("button").click(function(){
+	$("div").animate({
+	left: '250px',
+	height: '+=150px',
+	width: '+=150px'
+	});
+	});
+	});
+		</script>
 	
 	</head>
 
